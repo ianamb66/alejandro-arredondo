@@ -408,6 +408,16 @@ const App = () => {
             <a href="#" className="hover:text-white transition-colors">
               [ IMDB ]
             </a>
+            <a
+              href={`https://wa.me/525530814631?text=${encodeURIComponent(
+                "Hola Alejandro, vi tu sitio y me gustaría cotizar disponibilidad."
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              [ WHATSAPP ]
+            </a>
             <a href="#" className="hover:text-white transition-colors">
               [ DESCARGAR CV.PDF ]
             </a>
